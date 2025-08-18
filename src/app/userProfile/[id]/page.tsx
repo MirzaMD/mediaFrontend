@@ -39,7 +39,7 @@ export default function UserProfilePage(){
 
     const fetchingContent=useCallback(async ()=>{
         try{
-          const res = await axios.get(`http://localhost:3005/api/content/currentUser/${id}`,{
+          const res = await axios.get(`https://mediabackend-yj45.onrender.com/api/content/currentUser/${id}`,{
             withCredentials:true
           })
           console.log(res.data)
