@@ -80,7 +80,7 @@ const sub = async () => {
             text-[#ffffff] absolute sm:top-10 z-20 top-6`}>
                 Real Media</motion.h1>
             <motion.form 
-            className={`w-[300px] sm:w-[500px] h-screen sm:h-[500px]
+            className={`w-[300px] sm:w-[500px] h-[300px] sm:h-[500px]
                 flex flex-col justify-evenly items-center absolute
                 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 
                 border-2 rounded-lg bg-[#1B4543] border-[#F0BE6F]`}>
