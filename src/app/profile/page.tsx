@@ -73,7 +73,7 @@ export default function ProfilePage(){
     if (!user?._id) return;
     const fetchingContent = async () =>{
         try{
-            const res = await axios.get(`http://localhost:3005/api/content/currentUser/${user?._id}`,{
+            const res = await axios.get(`https://mediabackend-yj45.onrender.com/api/content/currentUser/${user?._id}`,{
                 withCredentials:true
             })
             if (res.status === 200){
