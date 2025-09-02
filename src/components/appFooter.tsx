@@ -27,7 +27,7 @@ export function AppFooter() {
   }, [path]);
 
   return (
-    <div className="w-full flex justify-evenly items-center fixed bottom-1 z-[99999] pointer-events-auto">
+    <div className="w-full flex justify-evenly items-center fixed bottom-1 z-20 pointer-events-auto bg-[#88dfc1]">
       <div className="w-full flex justify-evenly items-center">
         {selection === "Content" ? (
           <>
